@@ -1,0 +1,9 @@
+{
+    "name": "designpattern/engineer101",
+    "description": "OSSU learning OOP and Design pattern",
+    "autoload": {
+        "psr-4": {
+            "SOLID\\": "Principles/"
+        }
+    }
+}
