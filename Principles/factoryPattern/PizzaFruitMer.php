@@ -1,7 +1,7 @@
 <?php
 namespace SOLID\factoryPattern;
 
-class PizzaFromage extends Pizza
+class PizzaFruitMer extends Pizza
 {
 
     public function __construct()
@@ -11,21 +11,21 @@ class PizzaFromage extends Pizza
 
     public function prepare(): string
     {
-        return "Prepare Pizza with Fromage";
+        return "Prepare Pizza with FruitMer";
     }
 
     public function bake(): string
     {
-        return "bake Pizza with Fromage";
+        return "bake Pizza with FruitMer";
     }
 
     public function cut(): string
     {
-        return "cut Pizza with Fromage";
+        return "cut Pizza with FruitMer";
     }
 
     public function pack(): string
     {
-        return "pack Pizza with Fromage";
+        return "pack Pizza with FruitMer";
     }
 }
